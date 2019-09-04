@@ -1,9 +1,17 @@
 let reverse = function(x) {
-  let reverseNumber = 0;
+  let reverse = function(x) {
+    let reverseNumber = parseInt(
+      Math.abs(x)
+        .toString()
+        .split("")
+        .reverse()
+        .join("")
+    );
 
-  if (x > 0) {
-    reverseNumber = reverseNumber * 10 + (x % 10);
-    x = x / 10;
-  }
-  return reverseNumber;
+    return reverseNumber > Math.pow(2, 31) - 1
+      ? 0
+      : x > 0
+      ? reverseNumber
+      : reverseNumber * -1;
+  };
 };
