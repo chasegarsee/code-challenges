@@ -14,4 +14,5 @@ let reverse = function(x) {
       ? reverseNumber
       : reverseNumber * -1;
   };
+  console.log(reverseNumber([1, 2, 3, 4, 5]));
 };
