@@ -7,4 +7,4 @@ const atm = function(withdraw, balance) {
   return balance;
 };
 
-console.log(atm(50, 200));
+console.log(atm(240, 200));
