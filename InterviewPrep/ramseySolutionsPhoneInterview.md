@@ -109,7 +109,7 @@ Evey build week is comprised of 20+ cohorts with a minimum of 300 students per b
 
 They care more about culture fit than technical experience!
 
-## QUESTIONS TO ASK THEM ??????????????????????
+## QUESTIONS TO ASK THEM ??
 
 What would you say is your definition of success for this role?
 
@@ -117,7 +117,9 @@ What would you say the company culture like?
 
 What's the junior/senior balance of the team? (and are there plans to change it)
 
-## QUESTIONS TO ASK THEM ??????????????????????
+What is the potential that if a Jr. FE Dev position were to become available, that I could lateral over to that position?
+
+## QUESTIONS TO ASK THEM ??
 
 collosians 3:23
 for profit - rooted in christian value
