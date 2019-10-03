@@ -36,6 +36,10 @@ Then they write code and refactor the application until the test passes.
 
 ## Regression testing
 
+[-] Regression testing is re-running functional and non-functional tests to ensure that previously developed and tested software still performs after a change.
+[1] If not, that would be called a regression. Changes that may require regression testing include bug fixes, software enhancements, configuration changes, and even substitution of electronic components.
+[2] As regression test suites tend to grow with each found defect, test automation is frequently involved. Sometimes a change impact analysis is performed to determine an appropriate subset of tests (non-regression analysis.
+
 ## Maintain continuous integration testing suites
 
 ## Create and execute testing plans.
