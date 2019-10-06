@@ -46,6 +46,11 @@ Then they write code and refactor the application until the test passes.
 
 [-] One of the key benefits of integrating regularly is that you can detect errors quickly and locate them more easily. As each change introduced is typically small, pinpointing the specific change that introduced a defect can be done quickly.
 
-[-] In recent years CI has become a best practice for software development and is guided by a set of key principles. Among them are revision control, build automation and automated testing.
 
 ## Create and execute testing plans.
+
+What is the difference between Java and Javascript
+
+Where do you find the source code for a website. 
+
+how do you write a hyperlink
