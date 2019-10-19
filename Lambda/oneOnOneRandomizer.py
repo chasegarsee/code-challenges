@@ -1,5 +1,3 @@
-
-
 from random import shuffle
 list1 = [
     "Chris York",
