@@ -1,3 +1,5 @@
+// Hacker Ranked
+
 let a, b, c;
 
 a = parseInt(readLine());
