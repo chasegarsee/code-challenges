@@ -11,6 +11,6 @@ total = d + b;
 console.log(total.toFixed(1));
 console.log(s + c);
 
-for (let i = 0; i.length < 10; i++) {
+for (let i = 0; i.length < 12; i++) {
   console.log(i);
 }
