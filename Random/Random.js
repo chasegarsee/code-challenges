@@ -6,7 +6,6 @@ let timesToRepeat = 5;
 onSubmit = e => {
   e.preventDefault()
   const user = { email: this.state.credentials.email, password: this.state.credentials.password }
-  // console.log('submit', user)
   if (this.state.credentials.password === this.state.credentials.passwordCheck) {
       if (this.state.credentials.password.length > 5) {
           console.log("password", this.state.credentials.password)
@@ -26,3 +25,4 @@ onSubmit = e => {
                   payload: request,
               };
           }
+
