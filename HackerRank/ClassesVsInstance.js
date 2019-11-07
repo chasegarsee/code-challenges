@@ -15,7 +15,7 @@ function Person(initialAge) {
             console.log("You are young.")
         } else if (age >= 13 && age < 18) {
             console.log("You are a teenager.")
-        } else if (age >= 18) {
+        } else {
             console.log("You are old.")
         }
 
