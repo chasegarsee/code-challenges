@@ -1,9 +1,7 @@
 let words = [2, "Hacker", "Rank"];
 
 function processData(input) {
-  console.log(input);
-  let dup = input;
-  //.split("\n").split(1);
+  let dup = input.split("\n").split(1);
   dup.forEach(str => {
     let even = "";
     let odd = "";
