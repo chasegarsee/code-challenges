@@ -15,7 +15,7 @@ function binarySearch(list, item) {
   }
 }
 
-let myList = [];
+const myList = [];
 
 for (let i = 10; i < 21; i++) {
   myList.push(i);
@@ -24,3 +24,5 @@ for (let i = 10; i < 21; i++) {
 console.log(myList);
 
 console.log(binarySearch(myList, 13));
+
+/* BIG O Notation? O(log n) */
