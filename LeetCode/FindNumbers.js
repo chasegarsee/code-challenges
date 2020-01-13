@@ -1,16 +1,13 @@
 function findNumbers(nums) {
   let even = [];
-
   for (let i = 0; i < nums.length; i++) {
-    let issaNumba = nums[i].toString().length;
-    console.log(issaNumba);
-    if (issaNumba % 2) {
-      console.log("found one");
+    if (nums[i].toString().length % 2 == 0) {
+      even.push(nums[i]);
     }
   }
-  return even;
+  return even.length;
 }
 
-numbers = [1, 22, 30];
+numbers = [1, 22, 30, 1000];
 
 console.log(findNumbers(numbers));
