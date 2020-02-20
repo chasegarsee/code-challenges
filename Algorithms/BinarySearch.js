@@ -21,8 +21,6 @@ for (let i = 10; i < 21; i++) {
   myList.push(i);
 }
 
-console.log(myList);
-
 console.log(binarySearch(myList, 13));
 
 /* BIG O Notation? O(log n) */
