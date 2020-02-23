@@ -8,8 +8,29 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+# INSERT METHOD
+
+    def insert(self, data):
+        newNode = Node(data)
+        if(self.head):
+            current = self.head
+            while(current.next):
+                current = current.next
+            current.next = newNode
+        else:
+            self.head = newNode
+
+# PRINT METHOD
+
+    def printLL(self):
+        current = self.head
+        while(current):
+            print(current.data)
+            current = current.next
+
 
 ll = LinkedList()
-ll.head = Node(3)
-ll.head = Node(2)
-print(ll.head.data)
+ll.insert(3)
+ll.insert(4)
+ll.insert(5)
+ll.printLL()
