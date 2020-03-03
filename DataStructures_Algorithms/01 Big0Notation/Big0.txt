@@ -27,4 +27,9 @@ SPACE complexity === memory
 
 What is a Logarithm?
 
-The logarithm of a number roughly measures the number of times you can divide that number by 2 BEFORE you get a value that is less than or equal to 1
+The logarithm of a number roughly measures the number of times you can divide that number by 2 BEFORE you get a value that is less than or equal to 1.
+
+SEARCHING 
+EFFICIEN SORTING
+RECURSION
+==> algos have (log n) <==
