@@ -1,0 +1,37 @@
+How do you improve?
+
+==> Devise a plan for solving problems <==
+
+==> Master common problem solving patters <==
+
+
+--> PROBLEM SOLVING STRATS <--
+1. Understand the problem
+    a. Can you restate the problem in your own words
+    b. What are the inputs that go into the problem
+    c. What are the outputs that should be returned from the problem
+    d. Can the outputs be determined by the inputs (do you have enough information to solve the problem)
+    e. How should I lable the important pieces of data that are apart of the problem
+
+2. Explore Concrete Examples
+    a. Coming up with examples can help you understand the problem better
+    b. Examples also provide saity checks that your eventual solution works how it should
+    c. Start with simple examples (write it down!)
+    d. Progress to more complex examples
+    e. Explore examples with empty inputs
+    f. Explore examples with invalid inputs
+
+3. Break it down
+    a. Explicitly write down the steps you need to take. (Psudo Code)
+
+4. Solve / Simplify
+    a. Solve the problem, if you cant, SOLVE a simpler problem
+    b. Find the core difficulty in the thing you are trying to do --> Temporarily ignore that difficulty --> write a simplified solution --> incorperate that difficulty back in.
+
+5. Look Back / Refactor
+    a. Can you check the result
+    b. Can you dirive the result differently
+    c. Can you understand it at a glance
+    d. Can you use the method or result for some other problem
+    e. Can you improve the performance of your solution
+    f. Can you think of other ways to refactor
