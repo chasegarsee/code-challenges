@@ -1,0 +1,4 @@
+Big 0 Notation is a numeric value to how performant our code is. 
+
+Big 0 Notation is a wa to formalize fuzzy counting
+It allows us to talk formally about how the funtime of an algorithm grows as the inputs grow
