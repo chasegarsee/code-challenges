@@ -1,4 +1,30 @@
 Big 0 Notation is a numeric value to how performant our code is. 
 
 Big 0 Notation is a wa to formalize fuzzy counting
-It allows us to talk formally about how the funtime of an algorithm grows as the inputs grow
+It allows us to talk formally about how the funtime of an algorithm grows as the inputs grow.
+
+Big 0 is worst case scenario
+
+TIME complexity === runtime
+
+We are worried about the order of magnitude
+
+nested O(n)s have a runtime of 0(n2) (n squared)
+
+1. arithmatic operations are constant
+2. variable assignments are constant
+3. accessing elements in an array by index  or object by key is constant 
+4. In a loop, the complexity is the length of the loop * the complexity of whatever happens inside the loop. 
+
+
+
+SPACE complexity === memory  
+
+1. Most promitives (booleans, numberm undefined, null) are constant SPACE
+2. Strings require O(n) space (where n is the string length)
+3. Reference types are generally O(n), where n is the length (for arrays) or the number of keys (in objects)
+
+
+What is a Logarithm?
+
+The logarithm of a number roughly measures the number of times you can divide that number by 2 BEFORE you get a value that is less than or equal to 1
