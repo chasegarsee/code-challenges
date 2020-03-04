@@ -7,6 +7,7 @@ function charCount(str) {
     .toLowerCase()
     .split(" ")
     .join("");
+
   for (let indiChar of newStr) {
     if (chars[indiChar] > 0) {
       chars[indiChar]++;
