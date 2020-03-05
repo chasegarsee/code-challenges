@@ -1,0 +1,3 @@
+Creating pointers of values that correspond to an index or position and move towards the beginning, middle, or end based on a certain condition
+
+VERY efficient for solving problems with minimal space complexity
