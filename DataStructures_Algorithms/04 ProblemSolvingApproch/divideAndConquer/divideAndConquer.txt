@@ -1,0 +1,1 @@
+This pattern involes devidata a data set into smaller chuncks, then then repeating a process with a subset of data. 
