@@ -25,3 +25,10 @@ function collectOddValuesPure(arr) {
 }
 
 console.log(collectOddValuesPure([11, 12, 13, 14, 15, 16, 17, 18]));
+
+function reverse(str) {
+  if (str.length <= 1) return str;
+  return reverse(str.slice(1)) + str[0];
+}
+
+console.log(reverse("hello"));
