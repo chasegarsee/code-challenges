@@ -10,4 +10,4 @@ function countUniqueValues(arr) {
   return i + 1;
 }
 
-console.log(countUniqueValues([]));
+console.log(countUniqueValues([1, 3, 3, 4, 5, 6, 6, 7, 8, 8]));
