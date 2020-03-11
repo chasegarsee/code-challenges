@@ -4,11 +4,8 @@ const bSearch = (sortedArr, value) => {
   let middle = Math.floor((left + right) / 2);
 
   while (sortedArr[middle] !== value) {
-    if (value < sortedArr[middle]) {
-      right = middle - 1;
-    } else {
-      left = middle + 1;
-    }
+    if (value < sortedArr[middle]) right = middle - 1;
+    else left = middle + 1;
     middle = Math.floor((left + right) / 2);
   }
   return middle;
