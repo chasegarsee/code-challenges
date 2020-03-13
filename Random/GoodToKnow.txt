@@ -12,3 +12,5 @@ and associates that declaration with the function's scope.
 If a variable is block-scope declared (let / const), 
 then it's associated with the nearest enclosing { .. } block, 
 rather than its enclosing function (as with var).
+
+The one thing we will always be better at than the computer: Empathetic communication with other people.
