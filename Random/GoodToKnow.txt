@@ -1,0 +1,14 @@
+--> CLOSURE <--
+JS functions are themselves first-class values; 
+they can be assigned and passed around just like numbers or strings. 
+But since these functions hold and access variables, 
+they maintain their original scope no matter where in the program the functions are eventually executed. 
+This is called closure.
+
+--> LEXICAL SCOPE <--
+If you place a variable declaration inside a function, 
+the compiler handles this declaration AS it's parsing the function, 
+and associates that declaration with the function's scope. 
+If a variable is block-scope declared (let / const), 
+then it's associated with the nearest enclosing { .. } block, 
+rather than its enclosing function (as with var).
