@@ -9,4 +9,4 @@ function naiveSearch(long, short) {
   return count;
 }
 
-console.log(naiveSearch("hello there wanderer", "der"));
+console.log(naiveSearch("hello there wanderer", "ello"));
