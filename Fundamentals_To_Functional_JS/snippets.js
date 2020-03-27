@@ -15,7 +15,7 @@ const { name, room, weapon } = {
   weapon: obj.weapon[2]
 };
 
-console.log(obj);
+//console.log(obj);
 
 const game = {
   suspects: [
@@ -26,7 +26,7 @@ const game = {
 
 const [color1, color2] = [game.suspects[0].color, game.suspects[1].color];
 
-console.log(color1, color2);
+//console.log(color1, color2);
 
 function iterate(arr) {
   var firstColor, secondColor;
@@ -36,4 +36,26 @@ function iterate(arr) {
   }
   return firstColor + " " + secondColor;
 }
-console.log(iterate(game.suspects));
+//console.log(iterate(game.suspects));
+
+const _ = {};
+
+_.each = function(list, callback) {
+  if (Array.isArray(list)) {
+    for (let i = 0; i < list.length; i++) {
+      callback(list[i], i, list);
+    }
+  } else {
+    for (let key in list) {
+      callback(list[key], key, list);
+    }
+  }
+};
+
+_.each({ a: "bill", b: "kill", c: "still" }, function(name, i, list) {
+  if (list[i + 1]) {
+    console.log(name, "is younger than", list[i + 1]);
+  } else {
+    console.log(name, "is the oldest");
+  }
+});
