@@ -6,13 +6,13 @@ obj.weapon = [
   { type: "Sword", location: obj.room[3] },
   { type: "Spoon", location: obj.room[2] },
   { type: "Drill", location: obj.room[1] },
-  { type: "Knife", location: obj.room[0] }
+  { type: "Knife", location: obj.room[0] },
 ];
 
 const { name, room, weapon } = {
   name: obj.name[1],
   room: obj.room[3],
-  weapon: obj.weapon[2]
+  weapon: obj.weapon[2],
 };
 
 //console.log(obj);
@@ -20,8 +20,8 @@ const { name, room, weapon } = {
 const game = {
   suspects: [
     { name: "Bill", color: "BLUE", guilty: false },
-    { name: "Jill", color: "RED", guilty: false }
-  ]
+    { name: "Jill", color: "RED", guilty: false },
+  ],
 };
 
 const [color1, color2] = [game.suspects[0].color, game.suspects[1].color];
@@ -40,7 +40,7 @@ function iterate(arr) {
 
 const _ = {};
 
-_.each = function(list, callback) {
+_.each = function (list, callback) {
   if (Array.isArray(list)) {
     for (let i = 0; i < list.length; i++) {
       callback(list[i], i, list);
@@ -52,7 +52,7 @@ _.each = function(list, callback) {
   }
 };
 
-_.each({ a: "bill", b: "kill", c: "still" }, function(name, i, list) {
+_.each({ a: "bill", b: "kill", c: "still" }, function (name, i, list) {
   if (list[i + 1]) {
     console.log(name, "is younger than", list[i + 1]);
   } else {
