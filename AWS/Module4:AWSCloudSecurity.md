@@ -10,7 +10,7 @@
 
 [4] When creating an IAM policy, a user can be granted
 ==>[a] AWS Management Console access
-==>[b] programmativc access
+==>[b] programmatic access
 
 [5] TRUTH
 ==>[a] AWS Orgainizations enables you to consolidate multiple AWS accounts so that you can centrally anage them
