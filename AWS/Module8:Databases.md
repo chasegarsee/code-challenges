@@ -18,7 +18,7 @@
 [6] What is appropriate for using Amazon Relational Database Service? (Amazon RDS)
 ==>[a] Complex transations
 ==>[b] complex queries
-
+c
 [7] Using and application to AWS and use AWS features such as high availability, and automated backups, you should use...
 ==>[a] Amazon Aurora
 
