@@ -19,7 +19,7 @@ node index.js
 | ------ | ---------------- | ------------ | ------------- | -------------------------------------------------------------------------------- | ------------------------------------ |
 | GET    | `/inventory`     |              | 200           |                                                                                  | Array of item Quantities. (Integers) |
 | GET    | `/inventory:id`  |              | 200           |                                                                                  | Remaining Item Quantities (Integer)  |
-| PUT    | `/`              | {"coin": 1}  | 204           | X-Coins: \$[# of coins accepted]                                                 |                                      |
+| PUT    | `/`              | {"coin":1}   | 204           | X-Coins: \$[# of coins accepted]                                                 |                                      |
 | PUT    | `/inventory/:id` |              |               | \* X-Coins: \${# of coins returned } \* X-Inventory-Remaining: \$[item quantity] | {"Quantity": \${# Of Items Vended}}  |
 | PUT    | `/inventory/:id` |              |               | X-Coins: \$[# of coins accepted]                                                 |                                      |
 | PUT    | `/inventory/:id` |              |               | X-Coins: \$[# of coins accepted]                                                 |                                      |
