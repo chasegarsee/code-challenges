@@ -39,7 +39,7 @@ function fakeAjax(url, cb) {
       "The Great Gatsby",
       "Crime & Punishment",
       "Great Expectations",
-      "You Don't Know JS"
+      "You Don't Know JS",
     ]);
   }, 500);
 }
