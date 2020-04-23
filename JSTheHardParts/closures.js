@@ -139,3 +139,12 @@ var onceFunc = once(addByTwo);
 console.log(onceFunc(4)); //should log 6
 console.log(onceFunc(10)); //should log 6
 console.log(onceFunc(9001)); //should log 6
+
+var global = "global";
+function foo() {
+  var one = 1;
+  function bar() {
+    var two = 2;
+    function argh() {}
+  }
+}
