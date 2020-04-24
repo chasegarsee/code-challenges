@@ -148,3 +148,12 @@ function foo() {
     function argh() {}
   }
 }
+
+function f() {
+  function g() {
+    console.log(x);
+  }
+  let x = 1;
+  g();
+}
+f();
